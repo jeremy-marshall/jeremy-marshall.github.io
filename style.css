@@ -1,0 +1,134 @@
+/*  Resets all default styles in the browser  */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li,
+a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/*  General element styling  */
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    max-width: 900px;
+    margin-left: 40px;
+}
+article {
+    width: 800px;
+    margin: auto;
+    background-color: wheat;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 14px 0 12px 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+p {
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+img {
+    margin-bottom: 14px;
+    border: thick solid lightgrey;
+}
+
+footer {
+    background-color: rgb(15, 63, 0);
+    text-align: center;
+    color: white;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*  Main Banner  */
+#main-banner {
+    background-color: rgb(15, 63, 0);
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#banner-title {
+    font-size: 24px;
+}
+
+/*  Main content  */
+.main-content {
+    padding: 10px;
+    margin: 16px;
+}
+
+.main_content_title {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.experience_company {
+    font-size: 20px;
+}
+
+#education {
+    padding: 10px;
+    margin: 20px 20px 80px 20px;
+}
+
+/*  Sidebar Styling  */
+#sidebar {
+    max-width: 400px;
+    background-color: whitesmoke;
+}
+
+#sidebar_content {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact_info {
+    align-items: left;
+}
+
+.contact-logo {
+    height: 64px;
+    width: 64px;
+    margin: 6px 12px;
+    border: none;
+}
+
+/*  Flexbox  */
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+}
